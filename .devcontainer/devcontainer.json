@@ -1,13 +1,9 @@
 {
-  "name": "Node.js & MongoDB Dev Environment",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {},
-    "ghcr.io/devcontainers/features/mongodb:1": {}
-  },
+  "name": "Node.js Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
   "extensions": [
     "dbaeumer.vscode-eslint",
     "mongodb.mongodb-vscode"
   ],
-  "postCreateCommand": "npm install"
+  "postCreateCommand": "bash .devcontainer/install-mongo.sh"
 }
