@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог — StyleShop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo logo">StyleShop</a>
+
+      <button class="header__burger burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+
+      <nav class="header__nav nav" id="main-nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="catalog.html" class="nav__link nav__link--active">Каталог</a></li>
+          <li class="nav__item"><a href="cart.html" class="nav__link">Корзина</a></li>
+          <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="catalog">
+      <div class="container">
+        <h1 class="section-title">Каталог товаров</h1>
+
+        <!-- Категория 1 -->
+        <section class="category">
+          <h2 class="category__title">Футболки</h2>
+          <div class="category__grid">
+            <article class="product-card">
+                <img src="https://ir.ozone.ru/s3/multimedia-1-z/13175355851.jpg" alt="Футболка Oversize" class="product-card__image">
+              <h3 class="product-card__title">Футболка Oversize</h3>
+              <p class="product-card__price">1 990 ₽</p>
+              <button type="button" class="product-card__button button button_theme_primary">В корзину</button>
+            </article>
+            <article class="product-card">
+                <img src="https://basket-36.wbbasket.ru/vol7819/part781970/781970889/images/big/1.webp" alt="Футболка Basic" class="product-card__image">
+              <h3 class="product-card__title">Футболка Basic</h3>
+              <p class="product-card__price">1 490 ₽</p>
+              <button type="button" class="product-card__button button button_theme_primary">В корзину</button>
+            </article>
+            <article class="product-card">
+                <img src="https://basket-42.wbbasket.ru/vol10881/part1088105/1088105435/images/c246x328/8.webp" alt="Футболка с принтом" class="product-card__image">
+              <h3 class="product-card__title">Футболка с принтом</h3>
+              <p class="product-card__price">1 790 ₽</p>
+              <button type="button" class="product-card__button button button_theme_primary">В корзину</button>
+            </article>
+          </div>
+        </section>
+
+        <!-- Категория 2 -->
+        <section class="category">
+          <h2 class="category__title">Джинсы</h2>
+          <div class="category__grid">
+            <article class="product-card">
+              <img src="https://yandex-images.clstorage.net/10i03PN18/ffe344nlRpga/dKmkWbAn6dD1ghyfbXLFm97yjdEHeCn8NVu8Y8lU9umOQoPAuBRE2zJ4k6JtRgUeOuZWh_E9f76WhXxJdFe8bjRNFbwkR9jQ8catOvh21CpaEpyxxo867nYNb-FrMrRKHDMnJU3BIMrWfLVFbGTzG6zCAyKWXDqaIbN4i0ZE-DmTr4D6MTSKEpSzO36ukLPbbnNtsaX8uc42j36xWCAUab3T90S8AVH8tA2kN9v24EqvAFEQNE6oWWNzKFonhNlqQHzCuTHl2mAkYbqdbZLzKW-y3wMWrOh9Vm1cMarBFLrfotfWzvDw7oRsZHapxLCoDEIhcFSNGokiwGlZVycp2hOeQyrwN2rhd7J5Hw-yw4rdsFyg1g_KvHYPXGEoApca7UDlVx-SAQ0lTpRHmyVBawxA8pIk74uaseMJ-kclqdtgHkLaIsSL49TQGj_vESMK7BMOodXsK95W7zyDG7Gm2lwgZjS9k8HPJb7WZEhWoKm_0HMRxh0a-MPhGfoEZsspcx1A63DVKZGH4Wg9f3GC-3xSzgBGfantBT7dg0oythpeIHQ2vrBAfRWe9Oca1pCZ7dGQA-Wt2urw0UsodaRYWzAd0LkwFbqgdCIZHdwwsPtv8IwDh69KvFc-DvKrQAa6HXI0lD_hsO50bfW1yhczKH9gIpHX_EiZo5IbCFUEiUvQnMIbEyeKw_eCKt_vsVGazKF_wcYumzykDe2yOID22s-CB0c-00Dchk-0NMtGsIntsdGRR_-5qcPDmUvFVxsJwf9ie_JXKABmAYrPDqKTSQzyPgIWTVtOVu7MwhgClohMcRSXH8LiX5Qt9BfpFANZHtPhchSPemrzAEpZ1UZaS_F_ofrCRXgil9OYnrwzAyp9g_yxx7wbv_btPxNKk0aIvKP1hp9BEt91vzR0qfdim99CICAWjLvb8JLpuhRFeVkQbBK4kcWJsKTAuuyPw2NZPYFOo6Y8CA93vBxxQ" alt="Джинсы Slim синие" class="product-card__image">
+              <h3 class="product-card__title">Джинсы Slim</h3>
+              <p class="product-card__price">3 490 ₽</p>
+              <button type="button" class="product-card__button button button_theme_primary">В корзину</button>
+            </article>
+            <article class="product-card">
+              <img src="https://yandex-images.clstorage.net/10i03PN18/ffe344nlRpga/dKmkWbAn6dD1ghyfbXLFm97yjdEHeCn8NVu8Y8lU9umOQoPAuLQ0yzIos7JtRgUeOuZWh_E4X6ujtUzMMSKpexQoxam0Us31kZYtaphTsV9qEpyxxo867nYNb-FrMrRKHDMnJU3BIMrWfLVFbGTzG6zCAyKWXDqaIbN4i0ZE-DmTr4D6MTSKEpSzO36ukLPbbnNtsaX8uc42j36xWCAUab3T90S8AVH8tA2kN9v24EqvAFEQNE6oWWNzKFonhNlqQHzCuTHl2mAkYbqdbZLzKW-y3wMWrOh9Vm1cMarBFLrfotfWzvDw7oRsZHapxLCoDEIhcFSNGokiwGlZVycp2hOeQyrwN2rhd7J5Hw-yw4rdsFyg1g_KvHYPXGEoApca7UDlVx-SAQ0lTpRHmyVBawxA8pIk74uaseMJ-kclqdtgHkLaIsSL49TQGj_vESMK7BMOodXsK95W7zyDG7Gm2lwgZjS9k8HPJb7WZEhWoKm_0HMRxh0a-MPhGfoEZsspcx1A63DVKZGH4Wg9f3GC-3xSzgBGfantBT7dg0oythpeIHQ2vrBAfRWe9Oca1pCZ7dGQA-Wt2urw0UsodaRYWzAd0LkwFbqgdCIZHdwwsPtv8IwDh69KvFc-DvKrQAa6HXI0lD_hsO50bfW1yhczKH9gIpHX_EiZo5IbCFUEiUvQnMIbEyeKw_eCKt_vsVGazKF_wcYumzykDe2yOID22s-CB0c-00Dchk-0NMtGsIntsdGRR_-5qcPDmUvFVxsJwf9ie_JXKABmAYrPDqKTSQzyPgIWTVtOVu7MwhgClohMcRSXH8LiX5Qt9BfpFANZHtPhchSPemrzAEpZ1UZaS_F_ofrCRXgil9OYnrwzAyp9g_yxx7wbv_btPxNKk0aIvKP1hp9BEt91vzR0qfdim99CICAWjLvb8JLpuhRFeVkQbBK4kcWJsKTAuuyPw2NZPYFOo6Y8CA93vBxxQ" alt="Джинсы Mom голубые" class="product-card__image">
+              <h3 class="product-card__title">Джинсы Mom</h3>
+              <p class="product-card__price">3 990 ₽</p>
+              <button type="button" class="product-card__button button button_theme_primary">В корзину</button>
+            </article>
+            <article class="product-card">
+              <img src="https://yandex-images.clstorage.net/10i03PN18/ffe3442Q98h7/UE1BiJWnKNHQQrhvXXOg_q4CPNWmaTmMIco8Vr0Vti27h8dQLcFBGwd4Y_Pd82Ver9YWF3ToKu4zs_kdsVL8LgSYRb1x1yiAlPIcrv2yoapv1g2Bh_l5-bEKf-BqAjQbfCGVp98TkN4nvabnHIcxSMwXUWHkPhubE4L42TWVmmoTLxOIg5VaQLczWw0_Q-FpT_HO0_fcWBxE7ExjSkK2CiwShwf8snAORkxmlirlQFm-oMNytT3ZySEg6kv211o6wk7TqdBGiQL0M4pdTfMz6KwyzJMF3Zmu9l8cMvkiVCis4GYHL9ABLtQ-lzc41SGZ_9LxIleem7lBQCn5Jpbpe8E-cFlgFWuDZ_JY7cyg4CsuUOyjpm-bLVWfvxA4AjYo_GKlhI_i4xxV7_XG23QDac7gENOUnplqozBLaDUFyhtiLnLZYWbrgpcgqwzOA4JIDrBPQyZeOH9UnFzxWiLWSB5RFrVPU4OfNk30Bhl08yvtM2MyVi0J6yDSuflXd8gLYm0xu5N16ICmcrquvFCzOgwgL-LXznm_9Q_Nc2lxB6keAJWlj1GDjTRO14erRNMJbmHjAmZ_CAgy8Qk5RUT4WbAc8yjhNugQ9DJ6PY2jcEssg27Q193b_fbOH5A4Iwd6b-HnFS8S0c2Wz4Z3OCUgCDyxIqHX7bm6oMNYqzYXuwmQPFP58dZpAlYRSA3uINB47rDvMbZ-ig40j55BuNA0mS9yJ-VPwCH-Rc60hwrXAkm9sHMidn9oSaBTW1oGd-qL06wAa7PHCqI28DivLbFT2P5R_PNlvtlP91_9gcoi17hfUqWFHUPS7ZXvpSWJxWAJnpIhkaaMCnlDACuZxUcpWMG8ESrx94pht8Aq_w9Agcqv421jBs-ojUSODME7gtRLjgA0VR2zAAyEbybVCSTyyf3SwvBkTZu4EQIoWHREu_sifRIJ4xaZ0vWTqg6dc5Lo3dCdA3WPqj9W74zSg" alt="Джинсы Wide чёрные" class="product-card__image">
+              <h3 class="product-card__title">Джинсы Wide</h3>
+              <p class="product-card__price">4 290 ₽</p>
+              <button type="button" class="product-card__button button button_theme_primary">В корзину</button>
+            </article>
+          </div>
+        </section>
+
+        <!-- Категория 3 -->
+        <section class="category">
+          <h2 class="category__title">Куртки</h2>
+          <div class="category__grid">
+            <article class="product-card">
+              <img src="https://yandex-images.clstorage.net/10i03PN18/ffe344nlRpga/dKmkWbAn6dD1ghyfbXLFm97yjdEHeCn8NVu8Y8lU9umOQoPA6PRUG1IIskO4cxUeOuZWl3GNb1vWZWzJcZLcPlQ4RYzhYs3ltIatSqi2lO6-E00BJQ87DnY8vuC6glSqb0Kn1e3Q9a8WDhVCmoUQiB6z8_AVrWtZ8IFb-ycm-8nj3QM50jV64PSwKWwecVBa3-JNYlaMG070Le7TqCJ3C4-SxiQtocPNZx9n9QiWQYvc4cFSBz-oGzDRiprnB6gaMJ9AOQNlCFAmMcqvHDGiWx5Q_9EG3aguFg9uIUkipGn-slRW3ADR_QbfJoc6xqMonpGhMsSNeFqDkInqRPcYSdIe0_jR1YkD9fJIzTwBAekc01wRpf9pDnQPPqOKoQRbHIDVh77xMlwkLxe12zdgKJxCQ0KmHGvJoPAq-kZ3GTpSHyMqIjSLoJeRaC2f4YHYv4FdEkYeCy6Ub9yQOZDE6nwDtiW_MfBc1G00ZqjWopsMw8CgVI0Ju6LgKrkFFespUR0SeDOW-fOm42q9_0BwSP5B_IHXnDh9RY7cwbqABOh8EbQmnLBCbPRPtzQo5pLJDSDSg-RNG4iSsvjIx4aZalGNQDjzBcgAZZJKHr5ycFtcA_9ABX9pL0VdrSDIMKSrLlEWp81A0Q0HTuXk6UUjW7ySQLG132jb0eLY6GdXiYrQn-IbwTWrg8WhiC0_kxH4DfA9AYSu6dx2vu2zCMDEed5ixab_sOP_JQ9k5bjGgsltYUAhti5Yu4Bgm3g0xcubsz-C-rGXaBJGAZjMLFHCOF6x_tHnbpsulZ-dk4qglvotcRWH7hJg7UdPR8fqdVI6D1Gjcsbtm4tDs4loJYSJqzP8A8qjx0rjlBPJfr3BoUkvc00AFi5qjpZsTMEbcJYK_5AEB23i4AzVjySHCRSQ-56Q8XDFLCqI0RBqqSanm0ogT0GZIzbY0Icxu01NodIJLcFfYZY92g_HTy7Bc" alt="Куртка демисезонная бежевая" class="product-card__image">
+              <h3 class="product-card__title">Куртка демисезонная</h3>
+              <p class="product-card__price">7 990 ₽</p>
+              <button type="button" class="product-card__button button button_theme_primary">В корзину</button>
+            </article>
+            <article class="product-card">
+              <img src="https://yandex-images.clstorage.net/10i03PN18/ffe344nlRpga/dKmkWbAn6dD1ghyfbXLFm97yjdEHeCn8NVu8Y8lU9umOQoPAuNR0K6IIsyJtRgUeOuZWh_E9Goum9TzpdFLJKySdEPnxYq3VZMZ9H612dF_aEpyxxo867nYNb-FrMrRKHDMnJU3BIMrWfLVFbGTzG6zCAyKWXDqaIbN4i0ZE-DmTr4D6MTSKEpSzO36ukLPbbnNtsaX8uc42j36xWCAUab3T90S8AVH8tA2kN9v24EqvAFEQNE6oWWNzKFonhNlqQHzCuTHl2mAkYbqdbZLzKW-y3wMWrOh9Vm1cMarBFLrfotfWzvDw7oRsZHapxLCoDEIhcFSNGokiwGlZVycp2hOeQyrwN2rhd7J5Hw-yw4rdsFyg1g_KvHYPXGEoApca7UDlVx-SAQ0lTpRHmyVBawxA8pIk74uaseMJ-kclqdtgHkLaIsSL49TQGj_vESMK7BMOodXsK95W7zyDG7Gm2lwgZjS9k8HPJb7WZEhWoKm_0HMRxh0a-MPhGfoEZsspcx1A63DVKZGH4Wg9f3GC-3xSzgBGfantBT7dg0oythpeIHQ2vrBAfRWe9Oca1pCZ7dGQA-Wt2urw0UsodaRYWzAd0LkwFbqgdCIZHdwwsPtv8IwDh69KvFc-DvKrQAa6HXI0lD_hsO50bfW1yhczKH9gIpHX_EiZo5IbCFUEiUvQnMIbEyeKw_eCKt_vsVGazKF_wcYumzykDe2yOID22s-CB0c-00Dchk-0NMtGsIntsdGRR_-5qcPDmUvFVxsJwf9ie_JXKABmAYrPDqKTSQzyPgIWTVtOVu7MwhgClohMcRSXH8LiX5Qt9BfpFANZHtPhchSPemrzAEpZ1UZaS_F_ofrCRXgil9OYnrwzAyp9g_yxx7wbv_btPxNKk0aIvKP1hp9BEt91vzR0qfdim99CICAWjLvb8JLpuhRFeVkQbBK4kcWJsKTAuuyPw2NZPYFOo6Y8CA93vBxxQ" alt="Пуховик зимний" class="product-card__image">
+              <h3 class="product-card__title">Пуховик зимний</h3>
+              <p class="product-card__price">12 990 ₽</p>
+              <button type="button" class="product-card__button button button_theme_primary">В корзину</button>
+            </article>
+            <article class="product-card">
+              <img src="https://basket-32.wbbasket.ru/vol6461/part646127/646127198/images/big/1.webp" alt="Бомбер чёрный" class="product-card__image">
+              <h3 class="product-card__title">Бомбер</h3>
+              <p class="product-card__price">5 490 ₽</p>
+              <button type="button" class="product-card__button button button_theme_primary">В корзину</button>
+            </article>
+          </div>
+        </section>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2026 StyleShop. Все права защищены.</p>
+      <ul class="footer__socials">
+        <li><a href="#" class="footer__link">VK</a></li>
+        <li><a href="#" class="footer__link">Telegram</a></li>
+        <li><a href="#" class="footer__link">Instagram</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  
+</body>
+</html>
